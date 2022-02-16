@@ -26,8 +26,8 @@ const handleUserInput = function (data) {
   if (data === 'd') {
     connection.write('Move: right')
   }
-  if (data === '87') {
-    conn.write
+  if (data === 'q') {
+    connection.write('Say: sup!')
   }
 }
 
